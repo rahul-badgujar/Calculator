@@ -1,2 +1,9 @@
 # Calculator
-Calculator made using PyQt5 [in Progress]
+Calculator made using PyQt5 
+************************
+Welcome for Improvements
+
+Made By : 
+Rahul Badgujar
+PCCOE Nigdi, Pune
+
