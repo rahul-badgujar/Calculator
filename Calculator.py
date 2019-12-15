@@ -49,7 +49,7 @@ class Calculator(QMainWindow):
         self.button_ac=self.window.findChild(QPushButton,'button_exp')
         self.button_ac.released.connect(self.on_buttons_opr_released)
 
-        self.display=self.window.findChild(QLineEdit,'display')
+        self.display=self.window.findChild(QLabel,'display')
         self.ans_label=self.window.findChild(QLabel,'ans_label')
 
         self.answer=0.0
