@@ -8,7 +8,7 @@ class Calculator(QMainWindow):
     def __init__(self,title='Calculator',parent=None,uiFile=None):
         super(Calculator,self).__init__(parent)
         self.window=QMainWindow()
-        self.window.setWindowTitle('Calculator App : Made by Rahul')
+        self.window.setWindowTitle(title)
         loadUi(uiFile,self.window)
 
         self.buttons_num=list()
@@ -137,5 +137,5 @@ class Calculator(QMainWindow):
 
 if __name__=='__main__':
     testApp=QApplication(sys.argv)
-    calc=Calculator(title='Calculator',parent=None,uiFile='form/ui_calculator.ui')
+    calc=Calculator(title='Calculator App : Made by Rahul',parent=None,uiFile='form/ui_calculator.ui')
     testApp.exec_()
