@@ -25,8 +25,8 @@ class Calculator(QMainWindow):
         self.button_ac=self.window.findChild(QPushButton,'button_ac')
         self.button_ac.released.connect(self.on_button_ac_released)
 
-        self.button_ac=self.window.findChild(QPushButton,'button_bk')
-        self.button_ac.released.connect(self.on_button_bk_released)
+        self.button_ac=self.window.findChild(QPushButton,'button_del')
+        self.button_ac.released.connect(self.on_button_del_released)
 
         self.button_ac=self.window.findChild(QPushButton,'button_ans')
         self.button_ac.released.connect(self.on_button_ans_released)
@@ -78,9 +78,12 @@ class Calculator(QMainWindow):
             self.display.setText(text+'.')
 
     @pyqtSlot()
-    def on_button_bk_released(self):
+    def on_button_del_released(self):
         text=self.display.text()
-        self.display.setText(text[0:-1])
+        if text[0:-1]=='':
+            self.display.setText('0')
+        else:
+            self.display.setText(text[0:-1])
 
     @pyqtSlot()
     def on_buttons_opr_released(self):

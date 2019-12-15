@@ -7,14 +7,15 @@
     <x>0</x>
     <y>0</y>
     <width>394</width>
-    <height>501</height>
+    <height>491</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Calculator : by Rahul</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="Calculator"/>
+   <iconset resource="../resources/Calculator.qrc">
+    <normaloff>:/images/images/Calculator.png</normaloff>:/images/images/Calculator.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -27,7 +28,7 @@
     </sizepolicy>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color : #8a00e6;</string>
+    <string notr="true">background-color : #336699;</string>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
@@ -60,7 +61,7 @@
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -68,17 +69,17 @@
 
 QPushButton:hover
 {
-	background-color : white;
+	background-color : #009933;
 	border : none;
 	border-radius : 7px;
-	color : black;
+	color : white;
 	margin: 5px;
 }
 
 </string>
         </property>
         <property name="text">
-         <string>ANS</string>
+         <string>Ans</string>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -104,7 +105,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -148,7 +149,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -192,7 +193,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -236,7 +237,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -272,7 +273,7 @@ QPushButton:hover
         <property name="font">
          <font>
           <family>Arial</family>
-          <pointsize>20</pointsize>
+          <pointsize>28</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -280,7 +281,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QLineEdit
 {
-	padding : 7px;
+	padding : 10px;
 	background-color : white;
 }</string>
         </property>
@@ -291,7 +292,7 @@ QPushButton:hover
          <bool>false</bool>
         </property>
         <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
         </property>
        </widget>
       </item>
@@ -314,7 +315,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -322,10 +323,10 @@ QPushButton:hover
 
 QPushButton:hover
 {
-	background-color : white;
+	background-color : #e65c00;
 	border : none;
 	border-radius : 7px;
-	color : black;
+	color : white;
 	margin: 5px;
 }
 
@@ -358,7 +359,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -366,10 +367,10 @@ QPushButton:hover
 
 QPushButton:hover
 {
-	background-color : white;
+	background-color : #e65c00;
 	border : none;
 	border-radius : 7px;
-	color : black;
+	color : white;
 	margin: 5px;
 }
 
@@ -405,7 +406,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -413,10 +414,10 @@ QPushButton:hover
 
 QPushButton:hover
 {
-	background-color : white;
+	background-color : #bd0f0f;
 	border : none;
 	border-radius : 7px;
-	color : black;
+	color : white;
 	margin: 5px;
 }
 
@@ -449,7 +450,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -457,10 +458,10 @@ QPushButton:hover
 
 QPushButton:hover
 {
-	background-color : white;
+	background-color : #009933;
 	border : none;
 	border-radius : 7px;
-	color : black;
+	color : white;
 	margin: 5px;
 }
 
@@ -493,7 +494,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -537,7 +538,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -581,7 +582,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -625,7 +626,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -633,10 +634,10 @@ QPushButton:hover
 
 QPushButton:hover
 {
-	background-color : white;
+	background-color : #e65c00;
 	border : none;
 	border-radius : 7px;
-	color : black;
+	color : white;
 	margin: 5px;
 }
 
@@ -669,7 +670,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -713,7 +714,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -721,10 +722,10 @@ QPushButton:hover
 
 QPushButton:hover
 {
-	background-color : white;
+	background-color : #e65c00;
 	border : none;
 	border-radius : 7px;
-	color : black;
+	color : white;
 	margin: 5px;
 }
 
@@ -739,7 +740,7 @@ QPushButton:hover
        </widget>
       </item>
       <item row="2" column="1">
-       <widget class="QPushButton" name="button_bk">
+       <widget class="QPushButton" name="button_del">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>0</horstretch>
@@ -760,7 +761,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -768,17 +769,17 @@ QPushButton:hover
 
 QPushButton:hover
 {
-	background-color : white;
+	background-color : #bd0f0f;
 	border : none;
 	border-radius : 7px;
-	color : black;
+	color : white;
 	margin: 5px;
 }
 
 </string>
         </property>
         <property name="text">
-         <string>BK</string>
+         <string>Del</string>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -804,7 +805,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -848,7 +849,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -856,10 +857,10 @@ QPushButton:hover
 
 QPushButton:hover
 {
-	background-color : white;
+	background-color : #e65c00;
 	border : none;
 	border-radius : 7px;
-	color : black;
+	color : white;
 	margin: 5px;
 }
 
@@ -892,7 +893,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -936,7 +937,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton
 {
-	background-color : #8a00e6;
+	background-color : #336699;
 	border : none;
 	color : white;
 	margin: 5px;
@@ -966,7 +967,7 @@ QPushButton:hover
         <property name="font">
          <font>
           <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>15</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -974,7 +975,7 @@ QPushButton:hover
         <property name="styleSheet">
          <string notr="true">background-color : white;
 border : none;
-padding: 5px;
+padding: 7px;
 color : grey;</string>
         </property>
         <property name="text">
@@ -987,6 +988,8 @@ color : grey;</string>
    </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../resources/Calculator.qrc"/>
+ </resources>
  <connections/>
 </ui>
